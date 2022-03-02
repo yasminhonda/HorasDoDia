@@ -1,0 +1,12 @@
+@media screen and (max-width:530px) {
+    section{
+        padding: 1.5rem 6rem;
+        box-shadow: 0.8rem 0.8rem 2rem rgb(99, 99, 99);
+    }
+}
+@media screen and (max-width:416px) {
+    section{
+        padding: 1.5rem 4rem;
+        box-shadow: 0.8rem 0.8rem 2rem rgb(99, 99, 99);
+    }
+}
