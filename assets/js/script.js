@@ -5,7 +5,7 @@ function carregar(){
     let data = new Date()
     let hora = data.getHours()
     let min = zeroAEsquerda(data.getMinutes())
-    setTimeout('carregar()',500);
+    setInterval('carregar()',500);
 
     msg.innerHTML = `Agora são ${hora}:${min}`
 
